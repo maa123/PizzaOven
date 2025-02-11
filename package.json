@@ -1,0 +1,14 @@
+{
+  "name": "pizza-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/maa123/PizzaOven.git",
+  "author": "maa123 <maa123.lq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "mastodon": "^1.2.2",
+    "websocket": "^1.0.35"
+  }
+}
