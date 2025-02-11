@@ -39,4 +39,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/maa123/pizza-bot:latest
+        tags: ghcr.io/maa123/PizzaOven/pizza-bot:latest
