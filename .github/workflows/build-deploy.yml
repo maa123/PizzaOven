@@ -10,6 +10,9 @@ on:
 
 jobs:
   build:
+    permissions:
+        contents: read
+        packages: write
     runs-on: ubuntu-latest
 
     steps:
@@ -39,4 +42,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/maa123/PizzaOven/pizza-bot:latest
+        tags: ghcr.io/maa123/pizzaoven/pizza-bot:latest
